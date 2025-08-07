@@ -64,3 +64,4 @@ Never share your .env file publicly.
 
 To run the bot 24/7, consider deploying it on a cloud server or VPS.
 "# crypto-price-bot" 
+"# crypto-price-bot" 
