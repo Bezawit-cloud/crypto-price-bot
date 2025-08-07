@@ -32,10 +32,10 @@ BOT_TOKEN=your_telegram_bot_token
 CHAT_ID=your_telegram_chat_id
 API_KEY=your_coin_api_key  # (if applicable)
 Note: This file is used to keep your sensitive information (like bot token and chat ID) safe and should not be pushed to GitHub.
-##  3 Add .env to .gitignore**
+##  3 Add .env to .gitignore
 Make sure your .gitignore file includes:
 .env
-## 4 Install Required Packages**
+## 4 Install Required Packages
 Install all required Python libraries using:
 Install Required Packages
 pip install -r requirements.txt
