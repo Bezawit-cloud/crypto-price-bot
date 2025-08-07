@@ -21,11 +21,11 @@ This project is a Python-based tool that automates cryptocurrency price monitori
 
 ## Setup & Usage
 
-## 1Clone the repository**
+## 1 Clone the repository
 ``bash
    git clone <your-repo-url>
    cd <your-project-folder>
-## 2 Create a .env File**
+## 2 Create a .env File
 Inside your project folder, create a .env file with the following contents:
 
 BOT_TOKEN=your_telegram_bot_token
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ## Usage
 Once everything is set up, run the bot script with:
 python bot.py
-✅ Tips
+## ✅ Tips
 -Make sure your .env file is correctly named and in the same directory as your script.
 
 -If your token or chat ID are showing in your code or GitHub, remove them immediately, regenerate if necessary, and commit a cleaned version.
