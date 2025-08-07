@@ -26,42 +26,27 @@ This project is a Python-based tool that automates cryptocurrency price monitori
    ```bash
    git clone <your-repo-url>
    cd <your-project-folder>
-   Create a .env file in the project root folder and add your bot token and chat ID:
+2 **Create a .env File**
+Inside your project folder, create a .env file with the following contents:
 
-ini
-Copy
-Edit
 BOT_TOKEN=your_telegram_bot_token
 CHAT_ID=your_telegram_chat_id
-Create a .gitignore file in the project root (if not already present) and add:
-
-bash
-Copy
-Edit
+API_KEY=your_coin_api_key  # (if applicable)
+Note: This file is used to keep your sensitive information (like bot token and chat ID) safe and should not be pushed to GitHub.
+3. **Add .env to .gitignore**
+Make sure your .gitignore file includes:
 .env
-Install the required packages
-
-bash
-Copy
-Edit
+4. **Install Required Packages**
+Install all required Python libraries using:
+Install Required Packages
 pip install -r requirements.txt
-Run the bot script
-
-bash
-Copy
-Edit
+** Usage**
+Once everything is set up, run the bot script with:
 python bot.py
-Usage
+✅ Tips
+-Make sure your .env file is correctly named and in the same directory as your script.
 
-The bot collects price data every minute.
+-If your token or chat ID are showing in your code or GitHub, remove them immediately, regenerate if necessary, and commit a cleaned version.
 
-Use the Telegram bot to receive price alerts.
 
-You can manually trigger alerts or set up scheduling for automatic checking.
-
-Notes
-Never share your .env file publicly.
-
-To run the bot 24/7, consider deploying it on a cloud server or VPS.
-"# crypto-price-bot" 
 "# crypto-price-bot" 
